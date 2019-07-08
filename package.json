@@ -1,7 +1,7 @@
 {
   "private": true,
   "webpackConfigJaid": "universalLib",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "devDependencies": {
     "acorn": "^6.2.0",
