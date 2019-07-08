@@ -1,8 +1,12 @@
 {
   "private": true,
-  "webpackConfigJaid": "universalLib",
+  "webpackConfigJaid": "nodeLib",
   "version": "1.2.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
+  "dependencies": {
+    "browserslist-config-jaid-node": "^2.2.1",
+    "browserslist-config-jaid-web": "^2.1.1"
+  },
   "devDependencies": {
     "acorn": "^6.2.0",
     "babel-jest": "^24.8.0",
@@ -26,9 +30,5 @@
     "test:coverage": "npm run test:dev -- --coverage --json --outputFile=dist/jest/stats.json",
     "test:dev": "npm run build:dev && NODE_ENV=test MAIN=$(npx find-by-extension-cli js --fullPath --cwd dist/package/development) jest --runInBand",
     "test:debug": "DEBUG=\"$DEBUG,$(basename $PWD),$(basename $PWD):*\" NODE_ENV=test node --inspect=9229 node_modules/jest/bin/jest.js --runInBand"
-  },
-  "dependencies": {
-    "browserslist-config-jaid-node": "^1.0.0",
-    "browserslist-config-jaid-web": "^1.0.0"
   }
 }
