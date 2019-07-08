@@ -12,7 +12,7 @@ const mergedQuery = [
  * Exports a Browserslist query
  * @type {string[]}
  */
-export default [
+module.exports = [
   ...mergedQuery,
   "not dead",
 ]
