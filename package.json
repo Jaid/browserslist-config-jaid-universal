@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
-    "browserslist-config-jaid-node": "^2.2.1",
+    "browserslist-config-jaid-node": "^2.2.2",
     "browserslist-config-jaid-web": "^2.2.0"
   },
   "devDependencies": {
