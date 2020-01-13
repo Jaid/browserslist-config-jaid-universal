@@ -32,5 +32,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "browserslist-config-jaid-universal",
-  "description": "My Browserslist query targeting both NodeJS and modern web browsers."
+  "description": "My Browserslist query targeting both NodeJS and modern web browsers.",
+  "funding": "https://github.com/sponsors/jaid"
 }
