@@ -1,6 +1,5 @@
-import path from "path"
-
 import browserslist from "browserslist"
+import path from "path"
 
 /**
  * @type { import("../src") }
@@ -14,5 +13,5 @@ it("Should return a proper version list for given browserslist query", () => {
   expect(result.find(version => version.startsWith("chrome"))).toBeTruthy()
   expect(result.find(version => version.startsWith("and_chr"))).toBeTruthy()
   expect(result.find(version => version.startsWith("firefox"))).toBeTruthy()
-  expect(result.find(version => version.startsWith("edge"))).toBeTruthy()
+  expect(result.find(version => version.startsWith("edge"))).toBeFalsy() // Don't specifically support Edge
 })
