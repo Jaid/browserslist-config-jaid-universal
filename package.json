@@ -45,5 +45,6 @@
     "browserslist-config",
     "browserslist-custom",
     "browserslist-shareable-config"
-  ]
+  ],
+  "type": "module"
 }
